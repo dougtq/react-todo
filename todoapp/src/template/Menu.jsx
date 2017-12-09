@@ -4,10 +4,10 @@ export default class Menu extends Component {
   render () {
     return (
       <nav className='nav navbar-inverse bg-inverse'>
-        <div className='container'> 
+        <div className='container'>
           <div className='navbar-header'>
-            <a className='navbar-brand' href='#'> 
-              <i className='fa fa-calendar-check-o'></i>
+            <a className='navbar-brand' href='#'>
+              <i className='fa fa-calendar-check-o' />
             </a>
           </div>
           <div id='navbar' className='navbar-collapse collapse'>
