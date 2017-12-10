@@ -1,2 +1,3 @@
 # react-todo
-Basic react app
+
+**A react todo list**
