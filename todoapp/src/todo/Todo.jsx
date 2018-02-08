@@ -5,8 +5,6 @@ import PageHeader from '../template/pageHeader'
 import TodoForm from './TodoForm'
 import TodoList from './TodoList'
 
-const url = 'http://localhost:3003/api/todos'
-
 export default class Todo extends Component {
   render () {
     return (
