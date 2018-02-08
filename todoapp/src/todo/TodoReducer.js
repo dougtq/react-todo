@@ -10,13 +10,21 @@ export default (state = INITIAL_STATE, action) => {
       break
 
     case 'TODO_SEARCHED':
-      return { ...state, list: action.payload.data }
+      return { ...state, list: action.payload }
       break
 
-    case 'TODO_ADDED':
+    case 'TODO_STATUS_UPDATED':
+      return { ...state, description: '' }
+      break 
+    
+    case 'TODO_REMOVED':
       return { ...state, description: '' }
       break
-      
+    
+    case 'TODO_CLEAR':
+      return { ...state, description: '' }
+      break
+
     default:
       return state
       break
